@@ -1,0 +1,7 @@
+{
+  "name": "modulcrud",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
