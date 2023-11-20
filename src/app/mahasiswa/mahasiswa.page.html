@@ -1,11 +1,12 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>Data Mahasiswa</ion-title>
   </ion-toolbar>
 </ion-header>
+
 <ion-content>
   <ion-card *ngFor="let item of dataMahasiswa">
     <ion-item>
@@ -22,7 +23,8 @@
     </ion-item>
   </ion-card>
   <ion-card>
-    <ion-button (click)="open_modal_tambah(true)" expand="block">
+
+    <ion-button (click)="open_modal_tambah(true)" expand="block" color="success" shape="full">
       Tambah Mahasiswa
     </ion-button>
   </ion-card>
