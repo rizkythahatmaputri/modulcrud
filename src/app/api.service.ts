@@ -17,7 +17,7 @@ providedIn: 'root'
 export class ApiService {
 constructor(public http: HttpClient) { }
 apiURL() {
-return 'http://localhost/apiCoba';
+return 'http://localhost/modultujuh';
 }
 tambah(data: any, endpoint: string) {
 return this.http.post(this.apiURL() + '/' + endpoint, data);
